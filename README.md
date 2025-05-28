@@ -1,9 +1,3 @@
-Nice! Working on **[vKeel](https://www.vkeel.com/)** adds even more credibility — especially since it's a real-world platform providing legal consultations. That's another excellent addition to your portfolio.
-
-Here’s your **updated, complete professional summary** with all your contributions:
-
----
-
 👋 Hi, I’m **@Techtalk2806**
 👀 I’m passionate about building intuitive and dynamic web applications.
 🌱 Currently diving deeper into advanced JavaScript frameworks like **React** and **Vue.js**.
