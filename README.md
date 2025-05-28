@@ -1,43 +1,46 @@
-You're doing some seriously well-rounded and professional-level work — touching almost every part of full-stack web development, from API integrations and payment systems to invoicing, cart logic, and plan management. Here's your fully updated and polished professional summary:
+Nice! Working on **[vKeel](https://www.vkeel.com/)** adds even more credibility — especially since it's a real-world platform providing legal consultations. That's another excellent addition to your portfolio.
+
+Here’s your **updated, complete professional summary** with all your contributions:
 
 ---
 
 👋 Hi, I’m **@Techtalk2806**
 👀 I’m passionate about building intuitive and dynamic web applications.
-🌱 I’m currently learning advanced JavaScript frameworks like **React** and **Vue.js** to enhance my frontend capabilities.
-💻 As a **full-stack developer**, I work extensively with the **MERN stack** (MongoDB, Express.js, React, Node.js), and handle both **frontend and backend development**.
+🌱 Currently diving deeper into advanced JavaScript frameworks like **React** and **Vue.js**.
+💻 I’m a **full-stack developer** with strong command over the **MERN stack** (MongoDB, Express.js, React, Node.js), and I build both **frontend and backend** systems from scratch.
 
 ---
 
-🚀 **Key Projects & Contributions:**
+🚀 **Key Projects & Real-World Contributions:**
 
 * 🔗 **[WishGeeks Job Portal](https://jobs.wishgeekstechserve.com)**
-  A job portal for posting and applying to job listings.
-  ✅ Built both frontend and backend
-  ✅ Developed **[Admin Panel](https://admin-jobs.wishgeekstechserve.com/)** for managing jobs, applications, and platform data
+  ✅ Designed and developed both frontend and backend
+  ✅ Created an **[Admin Panel](https://admin-jobs.wishgeekstechserve.com/)** to manage jobs, applications, and analytics
 
 * 🛠️ **[WishGeeks Services Admin Panel](https://admin.wishgeeks.com/)**
-  A full-featured admin dashboard for managing real-time technical services (e.g. printer setup, mobile issues).
-  ✅ Real-time technician assignment and service tracking
-  ✅ Service pricing, membership, offers, and dynamic payment controls
-  ✅ Complete backend for user data, invoices, and status tracking
+  ✅ Built real-time technician assignment system and service status updates
+  ✅ Admin dashboard for dynamic pricing, payment method scheduling, invoice management, and user tracking
 
-* 🏨 **Hotel Management System (Backend)**
-  Designed a robust backend system for hotel operations
-  ✅ Room availability, check-in/out logic, billing, staff assignment, and seasonal pricing
+* 🏨 **Hotel Management Backend System**
+  ✅ Built backend with room management, check-in/check-out, seasonal pricing, staff assignment, and invoice/billing system
 
-* 💼 **[WishGeeks TechServe Website](https://wishgeekstechserve.com/)**
-  ✅ Developed and integrated features for **team-based plan management**, including active/expired plans, **payment integration**, and **invoice section improvements**
+* 💼 **[WishGeeks TechServe Site](https://wishgeekstechserve.com/)**
+  ✅ Developed plan and membership management with active/expired logic
+  ✅ Integrated payment gateway and invoice tracking
 
 * 🛒 **[WishGeeks Main Website](https://www.wishgeeks.com/)**
-  ✅ Implemented **add to cart** functionality, **price summary calculation**, and **API integration**
+  ✅ Built cart functionality, price summary calculation, and full API integration for checkout
 
-* 🧾 **[Invoice Generator Portal](https://invoices.wishgeekstechserve.com/)**
-  ✅ Improved and optimized logic for **invoice generation** to handle more complex billing and record-keeping
+* 🧾 **[Invoice Portal](https://invoices.wishgeekstechserve.com/)**
+  ✅ Improved backend invoice generation logic to support real-time data and error handling
+
+* ⚖️ **[vKeel Legal Consultation Platform](https://www.vkeel.com/)**
+  ✅ Worked on consultation booking features and improved platform logic to help users connect with legal experts effectively
+
+---
+
+📫 Reach out via **email** or connect with me on **LinkedIn**.
+⚡ **Fun fact:** I built a personal project that generates random inspirational quotes to stay motivated!
 
 ---
 
-📫 Feel free to reach out via **email** or connect with me on **LinkedIn**.
-⚡ **Fun fact:** I built a personal project that generates random inspirational quotes to keep the motivation high!
-
----
