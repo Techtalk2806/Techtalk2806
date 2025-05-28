@@ -1,40 +1,49 @@
 👋 Hi, I’m **@Techtalk2806**
-👀 I’m passionate about building intuitive and dynamic web applications.
-🌱 Currently diving deeper into advanced JavaScript frameworks like **React** and **Vue.js**.
-💻 I’m a **full-stack developer** with strong command over the **MERN stack** (MongoDB, Express.js, React, Node.js), and I build both **frontend and backend** systems from scratch.
+👀 I’m passionate about building intuitive, scalable, and business-focused web applications.
+🌱 Currently exploring advanced JavaScript frameworks like **React** and **Vue.js** to expand my frontend skills.
+💻 I’m a **full-stack developer** with deep experience in the **MERN stack** (MongoDB, Express.js, React, Node.js), building everything from user-facing features to secure backend systems.
 
 ---
 
-🚀 **Key Projects & Real-World Contributions:**
+🚀 **Major Projects & Real-World Contributions:**
 
 * 🔗 **[WishGeeks Job Portal](https://jobs.wishgeekstechserve.com)**
-  ✅ Designed and developed both frontend and backend
-  ✅ Created an **[Admin Panel](https://admin-jobs.wishgeekstechserve.com/)** to manage jobs, applications, and analytics
+  ✅ Full-stack development for a complete job listing and application platform
+  ✅ Built the **[Admin Panel](https://admin-jobs.wishgeekstechserve.com/)** to manage job posts, applications, and analytics
 
 * 🛠️ **[WishGeeks Services Admin Panel](https://admin.wishgeeks.com/)**
-  ✅ Built real-time technician assignment system and service status updates
-  ✅ Admin dashboard for dynamic pricing, payment method scheduling, invoice management, and user tracking
+  ✅ Built real-time service workflows including technician assignment and status tracking
+  ✅ Handled pricing, membership control, payment scheduling, and invoicing
 
-* 🏨 **Hotel Management Backend System**
-  ✅ Built backend with room management, check-in/check-out, seasonal pricing, staff assignment, and invoice/billing system
+* 🏨 **Hotel Management System (Backend)**
+  ✅ Developed backend for real-world hotel operations: room bookings, seasonal pricing, billing, staff assignment, and invoice generation
 
-* 💼 **[WishGeeks TechServe Site](https://wishgeekstechserve.com/)**
-  ✅ Developed plan and membership management with active/expired logic
-  ✅ Integrated payment gateway and invoice tracking
+* 💼 **[WishGeeks TechServe Website](https://wishgeekstechserve.com/)**
+  ✅ Worked on team-based plan features, active/expired plan logic, payment gateway integration, and invoice handling
 
-* 🛒 **[WishGeeks Main Website](https://www.wishgeeks.com/)**
-  ✅ Built cart functionality, price summary calculation, and full API integration for checkout
+* 🛒 **[WishGeeks E-commerce Site](https://www.wishgeeks.com/)**
+  ✅ Implemented **Add to Cart**, price summary features, and full API integration for a smooth checkout process
 
-* 🧾 **[Invoice Portal](https://invoices.wishgeekstechserve.com/)**
-  ✅ Improved backend invoice generation logic to support real-time data and error handling
+* 🧾 **[Invoice Generator](https://invoices.wishgeekstechserve.com/)**
+  ✅ Improved backend logic for more accurate and efficient invoice generation
 
-* ⚖️ **[vKeel Legal Consultation Platform](https://www.vkeel.com/)**
-  ✅ Worked on consultation booking features and improved platform logic to help users connect with legal experts effectively
+* ⚖️ **[vKeel](https://www.vkeel.com/)** – Legal Consultation Platform
+  ✅ Contributed to consultation booking and platform logic enhancements
+
+* 🤖 **[Greps.ai](https://greps.ai/)** – SaaS for Web, UI/UX, Chatbots, and API Integration
+  ✅ Built secure **user login and authentication** systems
+  ✅ Supported service modules including chatbot integration and API-based development
+
+* 💬 **TulipBot** – AI-Based Lead Generation
+  ✅ Built core backend logic for capturing and managing leads to increase revenue through automation
+
+* 🎓 **[AcentIndia](https://acentindia.com/)** – Education & Training Platform
+  ✅ Designed and developed an education website for offering **online/offline technical courses** like MERN stack, UI/UX, Data Science, etc.
+  ✅ Enabled users to **submit inquiries**, and built an **admin panel** for managing course details, updates, and inquiry data display
 
 ---
 
-📫 Reach out via **email** or connect with me on **LinkedIn**.
-⚡ **Fun fact:** I built a personal project that generates random inspirational quotes to stay motivated!
+📫 Let’s connect — I’m available via **email** or **LinkedIn**.
+⚡ **Fun fact:** I created a personal side project that generates random inspirational quotes to keep myself and others motivated!
 
 ---
-
