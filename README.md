@@ -1,8 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/Techtalk2806">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=800&color=7C6AFF&center=true&vCenter=true&width=700&height=80&lines=👋+Hi%2C+I'm+Techtalk2806;Full-Stack+MERN+Developer;Building+Production+Web+Apps;Available+for+New+Projects!" alt="Typing SVG" />
-</a>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=7C6AFF&center=true&vCenter=true&width=800&height=100&lines=Hi+%F0%9F%91%8B+I'm+Techtalk2806;Full-Stack+MERN+Developer;Building+Scalable+Web+Apps" alt="Typing SVG" /></a>
 
 <br/>
 
