@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=7C6AFF&height=120&section=header&text=Techtalk2806&fontSize=40&fontColor=fff&fontAlignY=65&animation=fadeIn" width="100%"/>
+<a href="https://github.com/Techtalk2806">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=800&color=7C6AFF&center=true&vCenter=true&width=700&height=80&lines=👋+Hi%2C+I'm+Techtalk2806;Full-Stack+MERN+Developer;Building+Production+Web+Apps;Available+for+New+Projects!" alt="Typing SVG" />
+</a>
+
+<br/>
 
 ### Full-Stack Developer · MERN Native · Open to Opportunities
 
