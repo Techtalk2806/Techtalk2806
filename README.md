@@ -24,6 +24,15 @@ I'm a **Full-Stack Developer** with deep experience in the **MERN stack** — bu
 - ⚡ Fun fact: I built a random quote generator to keep myself motivated daily
 
 ---
+## 🤖 AI & Machine Learning Expertise
+
+I have deep knowledge in integrating **OpenAI APIs** and building intelligent systems — from custom chatbots to full AI-powered SaaS products.
+
+- 🧠 **OpenAI / ChatGPT API** — GPT-4, ChatCompletions, embeddings, function calling & streaming
+- 🔗 **LangChain & RAG Pipelines** — context-aware AI apps with retrieval-augmented generation
+- 💬 **Chatbot Development** — built production bots (TulipBot, Greps.ai) with memory, personas & lead gen
+- ⚙️ **Prompt Engineering** — crafting structured, role-based prompts for consistent AI output
+- 🤖 **ML Model Integration** — embedding ML inference into Node.js/MERN production pipelines
 
 ## Tech Stack
 
@@ -51,6 +60,12 @@ I'm a **Full-Stack Developer** with deep experience in the **MERN stack** — bu
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
+**AI & Machine Learning**
+
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-FF6B6B?style=for-the-badge)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-F7931E?style=for-the-badge&logo=python&logoColor=white)
 ---
 
 ## Featured Projects
