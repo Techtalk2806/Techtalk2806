@@ -22,6 +22,7 @@ I'm a **Full-Stack Developer** with deep experience in the **MERN stack** — bu
 - 🌱 Exploring **Vue.js** and advanced JavaScript patterns
 - 💬 Ask me about **MongoDB, Express, React, Node.js, REST APIs, Auth systems**
 - ⚡ Fun fact: I built a random quote generator to keep myself motivated daily
+- 🤖 Deep expertise in **OpenAI APIs**, chatbot development & ML model integration into production apps
 
 ---
 ## 🤖 AI & Machine Learning Expertise
