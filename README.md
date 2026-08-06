@@ -1,11 +1,13 @@
 <div align="center">
 
 <a href="https://github.com/Techtalk2806">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=7C6AFF&center=true&vCenter=true&width=800&height=100&lines=Hi+%F0%9F%91%8B+I'm+Techtalk2806;Full-Stack+MERN+Developer;Building+Scalable+Web+Apps" alt="Typing SVG" /></a>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=7C6AFF&center=true&vCenter=true&width=800&height=100&lines=Raju+Mishra;Full-Stack+Engineer+%2B+AI%2FML+Engineer;Building+Production+Healthcare+AI+Systems" alt="Typing SVG" /></a>
 
 <br/>
 
-### Full-Stack Developer · MERN Native · Open to Opportunities
+### Full-Stack Engineer · AI/ML Engineer · Technical Lead
+
+**Distributed systems · AI-driven decisioning · Production infrastructure at scale**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/raju-mishra-599885310)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:educationpoint701@gmail.com)
@@ -14,73 +16,120 @@
 
 ---
 
-## About Me
+## About
 
-I'm a **Full-Stack Developer** with deep experience in the **MERN stack** — building everything from intuitive user interfaces to secure, scalable backend systems. Currently expanding into advanced React patterns and Vue.js.
+Technical Lead and sole engineer on a **production healthcare-commerce platform** serving live customer traffic — I own the full stack end to end: backend services, frontend, AI-driven decisioning systems, database architecture, and production infrastructure. No team, no handoffs, no dedicated DevOps.
 
-- 🔭 Currently working on production SaaS platforms at **WishGeeks TechServe**
-- 🌱 Exploring **Vue.js** and advanced JavaScript patterns
-- 💬 Ask me about **MongoDB, Express, React, Node.js, REST APIs, Auth systems**
-- ⚡ Fun fact: I built a random quote generator to keep myself motivated daily
-- 🤖 Deep expertise in **OpenAI APIs**, chatbot development & ML model integration into production apps
+I build systems the way they're supposed to be built: **audit before implementing, verify root cause before fixing, dry-run every data migration, fail loud on missing config.**
+
+- 🏥 Leading engineering + AI/ML on a confidential production healthcare platform *(details under NDA)*
+- 🤖 Shipped AI-driven recommendation engines and automated clinical-verification workflows into live production
+- ⚙️ Own end-to-end production infra — multi-process clusters, CI/CD, replica sets, caching layers
+- 💬 Ask me about **distributed caching, RBAC design, state machines, MongoDB at scale, OpenAI/LangChain**
+- 🎯 Care about correctness over velocity — I find and fix the bugs nobody else noticed were there
 
 ---
-## 🤖 AI & Machine Learning Expertise
 
-I have deep knowledge in integrating **OpenAI APIs** and building intelligent systems — from custom chatbots to full AI-powered SaaS products.
+## Engineering Highlights
 
-- 🧠 **OpenAI / ChatGPT API** — GPT-4, ChatCompletions, embeddings, function calling & streaming
-- 🔗 **LangChain & RAG Pipelines** — context-aware AI apps with retrieval-augmented generation
-- 💬 **Chatbot Development** — built production bots (TulipBot, Greps.ai) with memory, personas & lead gen
-- ⚙️ **Prompt Engineering** — crafting structured, role-based prompts for consistent AI output
-- 🤖 **ML Model Integration** — embedding ML inference into Node.js/MERN production pipelines
+Selected production work. Specific client/product names withheld under NDA.
+
+**🧠 AI & Machine Learning**
+- Designed an **AI-driven recommendation & substitution engine** — multi-stage aggregation pipeline with hard-constraint filtering, availability-awareness, server-side savings computation, and price-ascending ranking
+- Built an **automated clinical-verification workflow** as a strict state machine, hard-gating downstream fulfilment on human expert sign-off — closing a real patient-safety gap
+- Diagnosed a silent data-integrity bug where a required-flag was never being read correctly, causing **100% of gated orders to bypass verification undetected**; shipped a derivation engine + dry-run-first backfill to repair historical production data
+- Production LLM systems: OpenAI GPT-4 (ChatCompletions, embeddings, function calling, streaming), LangChain, RAG pipelines, persona-driven chatbots with memory
+
+**🔐 Security & Access Control**
+- Architected a full **RBAC system from scratch**: isolated admin identity model, 10 roles, resource-level granular permissions, and a complete audit trail on every privileged action
+- **Mandatory TOTP 2FA**, short-lived JWTs with permission versioning, rotating refresh tokens, Redis-backed session invalidation
+- Security audit that identified and closed **53 previously unguarded admin routes**, plus a router-stack regression test to prevent recurrence
+- Field-level PII encryption with a shared, audited decryption pattern applied across every read path
+
+**⚡ Performance & Scale**
+- Two-tier caching architecture (in-process LRU + Redis) with **single-flight stampede protection, stale-while-revalidate refresh, and popularity-weighted TTLs** — sustaining a **97% cache-hit rate** in production
+- Migrated MongoDB standalone → **replica set** with zero customer-facing downtime; full VPS infrastructure migration across providers, also zero-downtime
+- BullMQ background job queues with a dedicated reconciliation worker; write-path optimization taking a hot endpoint from **240ms → 12ms**
+- 12-instance clustered API deployment with zero-downtime CI/CD auto-deploy and automatic rollback on failed health checks
+- Root-caused a production incident where **5,177 critical slow-query alerts fired in 6 hours** — traced to an unbounded text-search candidate set, fixed via index redesign
+
+**💳 Payments, Compliance & Correctness**
+- Took a payment gateway live end-to-end with multi-method support (online, COD, manual international settlement) and dual-currency geo-detected pricing
+- Found and fixed a **critical financial bug where tax was being double-counted at checkout** — against statutory tax law — plus a tax-grouping compliance defect that was silently overwriting HSN codes
+- Built HMAC-signed, tamper-proof public document links with expiry, and integer-paise-based money arithmetic to eliminate floating-point drift across the platform
+- Replaced fragile string-matched geographic serviceability with a precise **20,000+ entry pincode-level lookup**
+
+**🔎 Search & SEO Engineering**
+- Owns technical SEO end to end: schema.org structured data, crawlability audits, and elimination of **soft-404s returning HTTP 200** — validated directly in Google Search Console
+- Rebuilt platform-wide pagination to be **fully crawlable for the first time**, with per-page canonicals and scroll-position restoration
+- Standing architectural lesson from a production incident: **never derive canonical or redirect URLs from `request.url` in Next.js standalone mode**
+
+---
 
 ## Tech Stack
 
-**Frontend**
+**Languages & Frontend**
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-**Backend**
+**Backend & Data**
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-FF3E00?style=for-the-badge&logo=fastapi&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![BullMQ](https://img.shields.io/badge/BullMQ-E10098?style=for-the-badge&logo=redis&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 
-**Tools & DevOps**
+**Infrastructure & DevOps**
 
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![PM2](https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 **AI & Machine Learning**
 
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG_Pipelines-6E56CF?style=for-the-badge)
 ![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-FF6B6B?style=for-the-badge)
 ![Machine Learning](https://img.shields.io/badge/Machine_Learning-F7931E?style=for-the-badge&logo=python&logoColor=white)
+
 ---
 
-## Featured Projects
+## Engineering Principles
 
-| Project | Description | Stack | Link |
-|---|---|---|---|
-| 💼 **WishGeeks Job Portal** | Full job listing & application platform with admin panel | MERN | [Live ↗](https://jobs.wishgeekstechserve.com) |
-| 🛠️ **WishGeeks Services Dashboard** | Real-time service workflows, payments & invoicing | MERN | [Live ↗](https://admin.wishgeeks.com/) |
-| 🏨 **Hotel Management System** | Room bookings, seasonal pricing, billing & staff assignment | Node.js, MongoDB | Private |
-| ⚖️ **vKeel** | Legal consultation booking platform | MERN | [Live ↗](https://www.vkeel.com/) |
-| 🤖 **Greps.ai** | SaaS with auth, chatbot integration & API services | MERN | [Live ↗](https://greps.ai/) |
-| 🎓 **AcentIndia** | EdTech platform for MERN, UI/UX & Data Science courses | MERN | [Live ↗](https://acentindia.com/) |
-| 🛒 **WishGeeks E-commerce** | Cart, checkout & full API integration | MERN | [Live ↗](https://www.wishgeeks.com/) |
-| 💬 **TulipBot** | AI-powered lead generation & management backend | Node.js | Private |
+> These aren't aspirations — they're how I actually work.
+
+- **Audit before implementing.** Verify what's actually shipped, with file-level evidence — never trust a feature's status from memory or a changelog.
+- **Root-cause before fixing.** A symptom patched is a bug deferred. Reproduce with `curl`, `mongosh`, and logs before touching code.
+- **Dry-run every data migration.** Scripts default to read-only; `--apply` is always an explicit, deliberate flag.
+- **Fail loud on config.** Missing environment variables throw at boot, not silently at 3 AM in production.
+- **One concern per branch.** Reviewable diffs beat heroic commits.
+- **The API is the source of truth for UI state.** Zero client-side business logic duplicating server rules.
+
+---
+
+## Selected Public Work
+
+| Project | Description | Stack |
+|---|---|---|
+| 💼 [**Job Portal Platform**](https://jobs.wishgeekstechserve.com) | Full job listing & application platform with admin panel | MERN |
+| 🛠️ [**Services Dashboard**](https://admin.wishgeeks.com/) | Real-time service workflows, payments & invoicing | MERN |
+| 🛒 [**E-commerce Platform**](https://www.wishgeeks.com/) | Cart, checkout & full API integration | MERN |
+| ⚖️ [**vKeel**](https://www.vkeel.com/) | Legal consultation booking platform | MERN |
+| 🤖 [**Greps.ai**](https://greps.ai/) | SaaS with auth, chatbot integration & API services | MERN |
+| 💬 **TulipBot** | AI-powered lead generation & management backend | Node.js, OpenAI |
+| 🏨 **Hotel Management System** | Room bookings, seasonal pricing, billing & staff assignment | Node.js, MongoDB |
+
+*Current production work is under NDA and not publicly linkable. Happy to walk through architecture and design decisions in detail on a call.*
 
 ---
 
@@ -97,7 +146,7 @@ I have deep knowledge in integrating **OpenAI APIs** and building intelligent sy
 
 <div align="center">
 
-*"Code is not just syntax — it's the bridge between ideas and reality."*
+*"Correctness first. Everything else is negotiable."*
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Techtalk2806&color=7C6AFF&style=for-the-badge)
 
